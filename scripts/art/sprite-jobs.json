@@ -1,0 +1,171 @@
+{
+  "_comment": "AI 图集 → 游戏像素资源。源图在 generated-images/，产物在 public/assets/pixel/。跑法：node scripts/art/process-sprites.mjs",
+  "jobs": [
+    {
+      "name": "units-shu-1",
+      "src": "generated-images/A_2x2_grid_sprite_sheet_of_fou_2026-11-19T12-09-24.png",
+      "outDir": "public/assets/pixel",
+      "cols": 2, "rows": 2, "size": 48, "levels": 5,
+      "watermark": { "x": 0.68, "y": 0.82, "maxArea": 5000 },
+      "cells": [
+        { "g": 0, "name": "unit_shu_militia.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 1, "name": "unit_shu_archer.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 2, "name": "unit_shu_baidie.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 3, "name": "unit_shu_crossbow.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] }
+      ]
+    },
+    {
+      "name": "units-shu-2",
+      "src": "generated-images/A_2x2_grid_sprite_sheet_of_fou_2026-11-19T12-09-39.png",
+      "outDir": "public/assets/pixel",
+      "cols": 2, "rows": 2, "size": 48, "levels": 5,
+      "watermark": { "x": 0.68, "y": 0.82, "maxArea": 5000 },
+      "cells": [
+        { "g": 0, "name": "unit_shu_fangshi.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 1, "name": "unit_shu_wuhu.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 2, "name": "unit_shu_wudang.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 3, "name": "unit_shu_hanzhong.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] }
+      ]
+    },
+    {
+      "name": "units-wei-1",
+      "src": "generated-images/A_2x2_grid_sprite_sheet_of_fou_2026-11-19T12-09-53.png",
+      "outDir": "public/assets/pixel",
+      "cols": 2, "rows": 2, "size": 48, "levels": 5,
+      "watermark": { "x": 0.68, "y": 0.82, "maxArea": 5000 },
+      "cells": [
+        { "g": 0, "name": "unit_wei_qingzhou.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 1, "name": "unit_wei_archer.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 2, "name": "unit_wei_wuwei.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 3, "name": "unit_wei_pili.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] }
+      ]
+    },
+    {
+      "name": "units-wei-2",
+      "src": "generated-images/A_2x2_grid_sprite_sheet_of_fou_2026-11-19T12-10-09.png",
+      "outDir": "public/assets/pixel",
+      "cols": 2, "rows": 2, "size": 48, "levels": 5,
+      "watermark": { "x": 0.68, "y": 0.82, "maxArea": 5000 },
+      "cells": [
+        { "g": 0, "name": "unit_wei_hubao.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 1, "name": "unit_wei_moushi.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 2, "name": "unit_wei_huwei.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] },
+        { "g": 3, "name": "unit_wei_xiliang.png", "extraSizes": [{ "size": 40, "suffix": "_map" }] }
+      ]
+    },
+    {
+      "name": "heroes-shu",
+      "src": "generated-images/A_2x2_grid_of_four_Chinese_Thr_2026-11-19T12-11-19.png",
+      "outDir": "public/assets/pixel",
+      "cols": 2, "rows": 2, "size": 64, "levels": 5,
+      "watermark": { "x": 0.68, "y": 0.82, "maxArea": 5000 },
+      "cells": [
+        { "g": 0, "name": "hero_liubei.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] },
+        { "g": 1, "name": "hero_zhugeliang.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] },
+        { "g": 2, "name": "hero_guanyu.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] },
+        { "g": 3, "name": "hero_zhangfei.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] }
+      ]
+    },
+    {
+      "name": "heroes-wei",
+      "src": "generated-images/A_2x2_grid_of_four_Chinese_Thr_2026-11-19T12-11-34.png",
+      "outDir": "public/assets/pixel",
+      "cols": 2, "rows": 2, "size": 64, "levels": 5,
+      "watermark": { "x": 0.68, "y": 0.82, "maxArea": 5000 },
+      "cells": [
+        { "g": 0, "name": "hero_caocao.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] },
+        { "g": 1, "name": "hero_xiahoudun.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] },
+        { "g": 2, "name": "hero_zhangliao.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] },
+        { "g": 3, "name": "hero_xuhuang.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] }
+      ]
+    },
+    {
+      "name": "terrain-base",
+      "src": "generated-images/A_4x4_grid_of_sixteen_square_t_2026-11-19T12-13-54.png",
+      "outDir": "public/assets/pixel",
+      "cols": 4, "rows": 4, "size": 40, "levels": 6,
+      "fullCell": true, "inset": 3,
+      "_note": "源图真实布局：第0行=草地 / 第1行=成排针叶树 / 第2行=水面 / 第3行=碎石滩(g15带水印不用)",
+      "cells": [
+        { "g": 0, "name": "terrain_plain_1.png" },
+        { "g": 1, "name": "terrain_plain_2.png" },
+        { "g": 2, "name": "terrain_plain_3.png" },
+        { "g": 3, "name": "terrain_plain_4.png" },
+        { "g": 8, "name": "terrain_water_1.png" },
+        { "g": 9, "name": "terrain_water_2.png" },
+        { "g": 10, "name": "terrain_water_3.png" },
+        { "g": 11, "name": "terrain_water_4.png" },
+        { "g": 12, "name": "terrain_mountain_2.png" },
+        { "g": 13, "name": "terrain_mountain_3.png" },
+        { "g": 14, "name": "terrain_mountain_4.png" }
+      ]
+    },
+    {
+      "name": "terrain-forest",
+      "src": "generated-images/A_2x2_grid_of_four_square_top__2026-11-19T12-14-45.png",
+      "outDir": "public/assets/pixel",
+      "cols": 2, "rows": 2, "size": 40, "levels": 6,
+      "fullCell": true, "inset": 3,
+      "_note": "4格全是密排针叶树；整格缩到40px会变成竖条，故裁一小块再缩。crop 区域避开 g3 右下角水印。",
+      "cells": [
+        { "g": 0, "name": "terrain_forest_1.png", "crop": { "size": 0.32, "x": 0.35, "y": 0.30 } },
+        { "g": 1, "name": "terrain_forest_2.png", "crop": { "size": 0.32, "x": 0.60, "y": 0.35 } },
+        { "g": 2, "name": "terrain_forest_3.png", "crop": { "size": 0.30, "x": 0.40, "y": 0.55 } },
+        { "g": 3, "name": "terrain_forest_4.png", "crop": { "size": 0.30, "x": 0.30, "y": 0.60 } }
+      ]
+    },
+    {
+      "name": "terrain-road",
+      "src": "generated-images/A_3x3_grid_of_nine_square_top__2026-11-19T12-11-48.png",
+      "outDir": "public/assets/pixel",
+      "cols": 3, "rows": 3, "size": 40, "levels": 6,
+      "fullCell": true, "inset": 3,
+      "_note": "3x3 源图：g0=草地 g1=松林 g2=雪山 g4=土路 g5=旱地 g6=村庄 g7=沼泽 g8=山道",
+      "cells": [
+        { "g": 4, "name": "terrain_road.png" },
+        { "g": 2, "name": "terrain_mountain_1.png" }
+      ]
+    },
+    {
+      "name": "battle-ground",
+      "src": "generated-images/A_3x3_grid_of_nine_square_top__2026-11-19T12-11-48.png",
+      "outDir": "public/assets/pixel",
+      "cols": 3, "rows": 3, "size": 64, "levels": 5,
+      "fullCell": true, "inset": 3,
+      "_note": "战场地面用草地(g0)，64px",
+      "cells": [
+        { "g": 0, "name": "ground_battle.png" }
+      ]
+    },
+    {
+      "name": "buildings",
+      "src": "generated-images/A_2x2_grid_sprite_sheet_of_fou_2026-11-19T12-12-02.png",
+      "outDir": "public/assets/pixel",
+      "cols": 2, "rows": 2, "size": 48, "levels": 5,
+      "watermark": { "x": 0.68, "y": 0.82, "maxArea": 5000 },
+      "cells": [
+        { "g": 0, "name": "town_shu.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] },
+        { "g": 1, "name": "town_wei.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] },
+        { "g": 2, "name": "town_village.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] },
+        { "g": 3, "name": "town_tower.png", "extraSizes": [{ "size": 32, "suffix": "_map" }] }
+      ]
+    },
+    {
+      "name": "resources",
+      "src": "generated-images/A_4x4_grid_sprite_sheet_of_res_2026-11-19T12-12-16.png",
+      "outDir": "public/assets/pixel",
+      "cols": 4, "rows": 4, "size": 32, "levels": 5,
+      "watermark": { "x": 0.68, "y": 0.82, "maxArea": 5000 },
+      "cells": [
+        { "g": 0, "name": "res_gold.png" },
+        { "g": 1, "name": "res_wood.png" },
+        { "g": 2, "name": "res_ore.png" },
+        { "g": 3, "name": "res_mercury.png" },
+        { "g": 4, "name": "res_sulfur.png" },
+        { "g": 5, "name": "res_crystal.png" },
+        { "g": 6, "name": "res_gem.png" },
+        { "g": 7, "name": "res_grain.png" }
+      ]
+    }
+  ]
+}

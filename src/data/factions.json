@@ -1,0 +1,28 @@
+[
+  {
+    "id": "shu",
+    "name": "蜀汉",
+    "source": "生命阵营",
+    "heroName": "刘备",
+    "townName": "成都",
+    "startSpells": ["heal", "bless"],
+    "startArmy": [
+      { "unitId": "shu_militia", "count": 40 },
+      { "unitId": "shu_archer", "count": 20 }
+    ],
+    "heroPool": ["刘备", "诸葛亮", "关羽", "张飞"]
+  },
+  {
+    "id": "wei",
+    "name": "曹魏",
+    "source": "守序阵营",
+    "heroName": "曹操",
+    "townName": "许昌",
+    "startSpells": ["slow", "haste"],
+    "startArmy": [
+      { "unitId": "wei_qingzhou", "count": 40 },
+      { "unitId": "wei_archer", "count": 20 }
+    ],
+    "heroPool": ["曹操", "夏侯惇", "张辽", "徐晃"]
+  }
+]

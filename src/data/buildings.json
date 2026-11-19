@@ -1,0 +1,385 @@
+[
+  {
+    "id": "hall",
+    "name": "大本营",
+    "faction": "any",
+    "cost": {},
+    "income": {
+      "gold": 500
+    },
+    "requires": [],
+    "desc": "城镇核心，每日产出500金"
+  },
+  {
+    "id": "manor",
+    "name": "内政厅",
+    "faction": "any",
+    "cost": {
+      "gold": 5000
+    },
+    "income": {
+      "gold": 1000
+    },
+    "requires": [
+      "hall"
+    ],
+    "desc": "每日产出提升为1000金"
+  },
+  {
+    "id": "forge",
+    "name": "铁匠铺",
+    "faction": "any",
+    "cost": {
+      "gold": 1000,
+      "ore": 10
+    },
+    "income": {},
+    "requires": [
+      "hall"
+    ],
+    "desc": "城镇通用设施"
+  },
+  {
+    "id": "market",
+    "name": "市场",
+    "faction": "any",
+    "cost": {
+      "gold": 800,
+      "wood": 5
+    },
+    "income": {},
+    "requires": [
+      "hall"
+    ],
+    "desc": "城镇通用设施"
+  },
+  {
+    "id": "tavern",
+    "name": "酒馆",
+    "faction": "any",
+    "cost": {
+      "gold": 300
+    },
+    "income": {},
+    "requires": [
+      "hall"
+    ],
+    "desc": "可招募新英雄"
+  },
+  {
+    "id": "shu_barracks1",
+    "name": "民兵营",
+    "faction": "shu",
+    "cost": {
+      "gold": 500,
+      "wood": 5
+    },
+    "income": {},
+    "requires": [
+      "hall"
+    ],
+    "recruitTier": 1,
+    "recruitUnit": "shu_militia",
+    "excludes": [
+      "shu_bowyard"
+    ],
+    "desc": "可招募乡勇"
+  },
+  {
+    "id": "shu_bowyard",
+    "name": "弓房",
+    "faction": "shu",
+    "cost": {
+      "gold": 600,
+      "wood": 5
+    },
+    "income": {},
+    "requires": [
+      "hall"
+    ],
+    "recruitTier": 1,
+    "recruitUnit": "shu_archer",
+    "excludes": [
+      "shu_barracks1"
+    ],
+    "desc": "可招募弓手"
+  },
+  {
+    "id": "shu_barracks2",
+    "name": "白毦营",
+    "faction": "shu",
+    "cost": {
+      "gold": 1500,
+      "wood": 10
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "shu_barracks1"
+    ],
+    "recruitTier": 2,
+    "recruitUnit": "shu_baidie",
+    "excludes": [
+      "shu_crossbow_yard"
+    ],
+    "desc": "可招募白毦兵"
+  },
+  {
+    "id": "shu_crossbow_yard",
+    "name": "连弩坊",
+    "faction": "shu",
+    "cost": {
+      "gold": 1600,
+      "wood": 10
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "shu_bowyard"
+    ],
+    "recruitTier": 2,
+    "recruitUnit": "shu_crossbow",
+    "excludes": [
+      "shu_barracks2"
+    ],
+    "desc": "可招募诸葛连弩"
+  },
+  {
+    "id": "shu_flying_camp",
+    "name": "无当营",
+    "faction": "shu",
+    "cost": {
+      "gold": 3000,
+      "ore": 10
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "shu_barracks2"
+    ],
+    "recruitTier": 3,
+    "recruitUnit": "shu_wudang",
+    "excludes": [
+      "shu_mystic"
+    ],
+    "desc": "可招募无当飞军"
+  },
+  {
+    "id": "shu_mystic",
+    "name": "巫祝院",
+    "faction": "shu",
+    "cost": {
+      "gold": 3000,
+      "mercury": 3
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "shu_bowyard"
+    ],
+    "recruitTier": 3,
+    "recruitUnit": "shu_fangshi",
+    "excludes": [
+      "shu_flying_camp"
+    ],
+    "desc": "可招募方士"
+  },
+  {
+    "id": "shu_wuhu_shrine",
+    "name": "五虎祠",
+    "faction": "shu",
+    "cost": {
+      "gold": 8000,
+      "gem": 2
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "shu_barracks2"
+    ],
+    "recruitTier": 4,
+    "recruitUnit": "shu_wuhu",
+    "excludes": [
+      "shu_cavalry_camp"
+    ],
+    "desc": "可招募五虎上将"
+  },
+  {
+    "id": "shu_cavalry_camp",
+    "name": "骠骑营",
+    "faction": "shu",
+    "cost": {
+      "gold": 8000,
+      "ore": 20
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "shu_flying_camp"
+    ],
+    "recruitTier": 4,
+    "recruitUnit": "shu_hanzhong",
+    "excludes": [
+      "shu_wuhu_shrine"
+    ],
+    "desc": "可招募汉中精骑"
+  },
+  {
+    "id": "wei_barracks1",
+    "name": "青州营",
+    "faction": "wei",
+    "cost": {
+      "gold": 550,
+      "ore": 5
+    },
+    "income": {},
+    "requires": [
+      "hall"
+    ],
+    "recruitTier": 1,
+    "recruitUnit": "wei_qingzhou",
+    "excludes": [
+      "wei_bowyard"
+    ],
+    "desc": "可招募青州兵"
+  },
+  {
+    "id": "wei_bowyard",
+    "name": "强弩营",
+    "faction": "wei",
+    "cost": {
+      "gold": 650,
+      "ore": 5
+    },
+    "income": {},
+    "requires": [
+      "hall"
+    ],
+    "recruitTier": 1,
+    "recruitUnit": "wei_archer",
+    "excludes": [
+      "wei_barracks1"
+    ],
+    "desc": "可招募魏弓手"
+  },
+  {
+    "id": "wei_barracks2",
+    "name": "武卫大营",
+    "faction": "wei",
+    "cost": {
+      "gold": 1600,
+      "ore": 10
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "wei_barracks1"
+    ],
+    "recruitTier": 2,
+    "recruitUnit": "wei_wuwei",
+    "excludes": [
+      "wei_catapult"
+    ],
+    "desc": "可招募武卫营"
+  },
+  {
+    "id": "wei_catapult",
+    "name": "霹雳台",
+    "faction": "wei",
+    "cost": {
+      "gold": 1700,
+      "wood": 10
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "wei_bowyard"
+    ],
+    "recruitTier": 2,
+    "recruitUnit": "wei_pili",
+    "excludes": [
+      "wei_barracks2"
+    ],
+    "desc": "可招募霹雳车"
+  },
+  {
+    "id": "wei_stables",
+    "name": "虎豹厩",
+    "faction": "wei",
+    "cost": {
+      "gold": 3200,
+      "ore": 12
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "wei_barracks2"
+    ],
+    "recruitTier": 3,
+    "recruitUnit": "wei_hubao",
+    "excludes": [
+      "wei_council"
+    ],
+    "desc": "可招募虎豹骑"
+  },
+  {
+    "id": "wei_council",
+    "name": "谋士阁",
+    "faction": "wei",
+    "cost": {
+      "gold": 3200,
+      "mercury": 3
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "wei_bowyard"
+    ],
+    "recruitTier": 3,
+    "recruitUnit": "wei_moushi",
+    "excludes": [
+      "wei_stables"
+    ],
+    "desc": "可招募谋士"
+  },
+  {
+    "id": "wei_guard_hall",
+    "name": "虎卫殿",
+    "faction": "wei",
+    "cost": {
+      "gold": 8500,
+      "gem": 2
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "wei_barracks2"
+    ],
+    "recruitTier": 4,
+    "recruitUnit": "wei_huwei",
+    "excludes": [
+      "wei_iron_cavalry"
+    ],
+    "desc": "可招募虎卫统领"
+  },
+  {
+    "id": "wei_iron_cavalry",
+    "name": "西凉骑营",
+    "faction": "wei",
+    "cost": {
+      "gold": 8500,
+      "ore": 20
+    },
+    "income": {},
+    "requires": [
+      "hall",
+      "wei_stables"
+    ],
+    "recruitTier": 4,
+    "recruitUnit": "wei_xiliang",
+    "excludes": [
+      "wei_guard_hall"
+    ],
+    "desc": "可招募西凉铁骑"
+  }
+]

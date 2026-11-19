@@ -1,0 +1,33 @@
+{
+  "name": "out-of-qishan",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "出祁山 - Phaser 复刻英雄无敌4（双阵营简化版：蜀汉 vs 曹魏）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check-data.mjs",
+    "test": "node --test \"src/logic/**/*.test.js\"",
+    "verify:m7": "node scripts/verify-m7-ui.mjs",
+    "verify:m9": "node scripts/verify-m9-ui.mjs",
+    "verify:m9b": "node scripts/verify-m9-browser.mjs",
+    "verify:m9c": "node scripts/verify-m9c-spell-click.mjs",
+    "verify:m10": "node scripts/verify-m10-ui.mjs",
+    "verify:m11": "node scripts/verify-m11-ui.mjs",
+    "verify:m12": "node scripts/verify-m12-ui.mjs",
+    "verify:m13": "node scripts/verify-m13-ui.mjs",
+    "verify:m14": "node scripts/verify-m14-ui.mjs",
+    "verify:map": "node scripts/verify-map-town-choice.mjs",
+    "art": "node scripts/gen-pixel-art.mjs && node scripts/art/process-sprites.mjs",
+    "shot:m14": "node scripts/shot-m14-art.mjs",
+    "verify": "npm run verify:m9b && npm run verify:m9c && npm run verify:m7 && npm run verify:m9 && npm run verify:m10 && npm run verify:m11 && npm run verify:m12 && npm run verify:m13 && npm run verify:m14 && npm run verify:map"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
+  }
+}

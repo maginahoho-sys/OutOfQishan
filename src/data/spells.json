@@ -1,0 +1,122 @@
+[
+  {
+    "id": "heal",
+    "name": "治疗",
+    "faction": "shu",
+    "level": 1,
+    "manaCost": 4,
+    "target": "ally",
+    "effect": { "type": "heal", "base": 10, "perLevel": 5 },
+    "desc": "恢复友军生命"
+  },
+  {
+    "id": "bless",
+    "name": "祝福",
+    "faction": "shu",
+    "level": 1,
+    "manaCost": 3,
+    "target": "ally",
+    "effect": { "type": "buff", "stat": "damageMax", "value": 2, "turns": 3 },
+    "desc": "友军每击伤害取最大值，持续3回合"
+  },
+  {
+    "id": "huti",
+    "name": "护体",
+    "faction": "shu",
+    "level": 1,
+    "manaCost": 4,
+    "target": "ally",
+    "effect": { "type": "buff", "stat": "defense", "value": 2, "turns": 3 },
+    "desc": "提升友军防御2点，持续3回合"
+  },
+  {
+    "id": "quxie",
+    "name": "驱邪",
+    "faction": "shu",
+    "level": 2,
+    "manaCost": 6,
+    "target": "enemy",
+    "effect": { "type": "damage", "base": 8, "perLevel": 4 },
+    "desc": "对敌军造成直接伤害，不触发反击"
+  },
+  {
+    "id": "fuhuo",
+    "name": "复活",
+    "faction": "shu",
+    "level": 2,
+    "manaCost": 10,
+    "target": "ally",
+    "effect": { "type": "resurrect", "base": 20 },
+    "desc": "大幅恢复友军生命，可补回损失的兵力"
+  },
+  {
+    "id": "tianyou",
+    "name": "天佑",
+    "faction": "shu",
+    "level": 3,
+    "manaCost": 12,
+    "target": "allAllies",
+    "effect": { "type": "buff", "stat": "attack", "value": 3, "turns": 3 },
+    "desc": "全军攻击提升3点，持续3回合"
+  },
+  {
+    "id": "slow",
+    "name": "迟缓",
+    "faction": "wei",
+    "level": 1,
+    "manaCost": 3,
+    "target": "enemy",
+    "effect": { "type": "debuff", "stat": "speed", "value": -2, "turns": 3 },
+    "desc": "降低敌军速度2点，持续3回合"
+  },
+  {
+    "id": "haste",
+    "name": "运筹",
+    "faction": "wei",
+    "level": 1,
+    "manaCost": 3,
+    "target": "ally",
+    "effect": { "type": "buff", "stat": "speed", "value": 2, "turns": 3 },
+    "desc": "提升友军速度2点，提前出手，持续3回合"
+  },
+  {
+    "id": "zhimang",
+    "name": "致盲",
+    "faction": "wei",
+    "level": 1,
+    "manaCost": 5,
+    "target": "enemy",
+    "effect": { "type": "debuff", "stat": "canAct", "value": 0, "turns": 2 },
+    "desc": "敌军被致盲，持续2回合内无法行动"
+  },
+  {
+    "id": "huoji",
+    "name": "火计",
+    "faction": "wei",
+    "level": 2,
+    "manaCost": 7,
+    "target": "enemy",
+    "effect": { "type": "damage", "base": 14, "perLevel": 8 },
+    "desc": "对敌军造成大量直接伤害，不触发反击"
+  },
+  {
+    "id": "fubing",
+    "name": "伏兵",
+    "faction": "wei",
+    "level": 2,
+    "manaCost": 6,
+    "target": "ally",
+    "effect": { "type": "buff", "stat": "attack", "value": 4, "turns": 2 },
+    "desc": "友军攻击提升4点，持续2回合"
+  },
+  {
+    "id": "kongcheng",
+    "name": "空城",
+    "faction": "wei",
+    "level": 3,
+    "manaCost": 14,
+    "target": "allEnemies",
+    "effect": { "type": "debuff", "stat": "attack", "value": -3, "turns": 2 },
+    "desc": "敌军全军攻击降低3点，持续2回合"
+  }
+]

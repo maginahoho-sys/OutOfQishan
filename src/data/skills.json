@@ -1,0 +1,58 @@
+[
+  {
+    "id": "leadership",
+    "name": "统帅",
+    "maxLevel": 3,
+    "effect": { "type": "armyAttack", "perLevel": 1 },
+    "desc": "每级全军攻击提升1点"
+  },
+  {
+    "id": "logistics",
+    "name": "行军",
+    "maxLevel": 3,
+    "effect": { "type": "movePoints", "perLevel": 4 },
+    "desc": "每级英雄每日行动力提升4点"
+  },
+  {
+    "id": "wisdom",
+    "name": "谋略",
+    "maxLevel": 3,
+    "effect": { "type": "mana", "perLevel": 10 },
+    "desc": "每级法力上限提升10点"
+  },
+  {
+    "id": "finance",
+    "name": "理财",
+    "maxLevel": 3,
+    "effect": { "type": "goldPerDay", "perLevel": 200 },
+    "desc": "每级每日额外获得200金"
+  },
+  {
+    "id": "archery",
+    "name": "弓术",
+    "maxLevel": 3,
+    "effect": { "type": "rangedDamage", "perLevel": 10 },
+    "desc": "每级远程兵伤害提升10%"
+  },
+  {
+    "id": "valor",
+    "name": "武勇",
+    "maxLevel": 3,
+    "effect": { "type": "meleeDamage", "perLevel": 10 },
+    "desc": "每级近战兵伤害提升10%"
+  },
+  {
+    "id": "medicine",
+    "name": "医疗",
+    "maxLevel": 3,
+    "effect": { "type": "healBonus", "perLevel": 20 },
+    "desc": "每级治疗魔法效果提升20%"
+  },
+  {
+    "id": "defense",
+    "name": "防御",
+    "maxLevel": 3,
+    "effect": { "type": "armyDefense", "perLevel": 1 },
+    "desc": "每级全军防御提升1点"
+  }
+]

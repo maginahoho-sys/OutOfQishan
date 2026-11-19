@@ -1,0 +1,353 @@
+[
+  {
+    "id": "shu_militia",
+    "name": "乡勇",
+    "faction": "shu",
+    "tier": 1,
+    "attack": 2,
+    "defense": 2,
+    "damageMin": 1,
+    "damageMax": 3,
+    "hp": 6,
+    "speed": 3,
+    "moveRange": 4,
+    "range": 1,
+    "growth": 20,
+    "cost": {
+      "gold": 40
+    },
+    "abilities": [],
+    "aiValue": 90
+  },
+  {
+    "id": "shu_archer",
+    "name": "弓手",
+    "faction": "shu",
+    "tier": 1,
+    "attack": 3,
+    "defense": 1,
+    "damageMin": 2,
+    "damageMax": 3,
+    "hp": 5,
+    "speed": 4,
+    "moveRange": 3,
+    "range": 6,
+    "growth": 14,
+    "cost": {
+      "gold": 70
+    },
+    "abilities": [
+      "ranged"
+    ],
+    "aiValue": 100
+  },
+  {
+    "id": "shu_baidie",
+    "name": "白毦兵",
+    "faction": "shu",
+    "tier": 2,
+    "attack": 4,
+    "defense": 4,
+    "damageMin": 2,
+    "damageMax": 4,
+    "hp": 10,
+    "speed": 4,
+    "moveRange": 4,
+    "range": 1,
+    "growth": 14,
+    "cost": {
+      "gold": 120,
+      "wood": 1
+    },
+    "abilities": [],
+    "aiValue": 220
+  },
+  {
+    "id": "shu_crossbow",
+    "name": "诸葛连弩",
+    "faction": "shu",
+    "tier": 2,
+    "attack": 4,
+    "defense": 3,
+    "damageMin": 3,
+    "damageMax": 5,
+    "hp": 8,
+    "speed": 5,
+    "moveRange": 3,
+    "range": 8,
+    "growth": 10,
+    "cost": {
+      "gold": 220,
+      "wood": 2
+    },
+    "abilities": [
+      "ranged",
+      "twoAttack"
+    ],
+    "aiValue": 240
+  },
+  {
+    "id": "shu_wudang",
+    "name": "无当飞军",
+    "faction": "shu",
+    "tier": 3,
+    "attack": 7,
+    "defense": 5,
+    "damageMin": 4,
+    "damageMax": 6,
+    "hp": 16,
+    "speed": 6,
+    "moveRange": 6,
+    "range": 1,
+    "growth": 8,
+    "cost": {
+      "gold": 450,
+      "ore": 2
+    },
+    "abilities": [
+      "fly"
+    ],
+    "aiValue": 500
+  },
+  {
+    "id": "shu_fangshi",
+    "name": "方士",
+    "faction": "shu",
+    "tier": 3,
+    "attack": 6,
+    "defense": 4,
+    "damageMin": 5,
+    "damageMax": 8,
+    "hp": 14,
+    "speed": 4,
+    "moveRange": 4,
+    "range": 7,
+    "growth": 8,
+    "cost": {
+      "gold": 420,
+      "mercury": 1
+    },
+    "abilities": [
+      "ranged"
+    ],
+    "aiValue": 470
+  },
+  {
+    "id": "shu_wuhu",
+    "name": "五虎上将",
+    "faction": "shu",
+    "tier": 4,
+    "attack": 11,
+    "defense": 9,
+    "damageMin": 8,
+    "damageMax": 12,
+    "hp": 45,
+    "speed": 7,
+    "moveRange": 5,
+    "range": 1,
+    "growth": 4,
+    "cost": {
+      "gold": 1500,
+      "gem": 1
+    },
+    "abilities": [
+      "noRetaliation"
+    ],
+    "aiValue": 1350
+  },
+  {
+    "id": "shu_hanzhong",
+    "name": "汉中精骑",
+    "faction": "shu",
+    "tier": 4,
+    "attack": 10,
+    "defense": 8,
+    "damageMin": 7,
+    "damageMax": 10,
+    "hp": 40,
+    "speed": 8,
+    "moveRange": 6,
+    "range": 1,
+    "growth": 4,
+    "cost": {
+      "gold": 1400,
+      "ore": 5
+    },
+    "abilities": [],
+    "aiValue": 1250
+  },
+  {
+    "id": "wei_qingzhou",
+    "name": "青州兵",
+    "faction": "wei",
+    "tier": 1,
+    "attack": 2,
+    "defense": 3,
+    "damageMin": 1,
+    "damageMax": 3,
+    "hp": 7,
+    "speed": 3,
+    "moveRange": 4,
+    "range": 1,
+    "growth": 20,
+    "cost": {
+      "gold": 45
+    },
+    "abilities": [],
+    "aiValue": 95
+  },
+  {
+    "id": "wei_archer",
+    "name": "魏弓手",
+    "faction": "wei",
+    "tier": 1,
+    "attack": 3,
+    "defense": 1,
+    "damageMin": 2,
+    "damageMax": 3,
+    "hp": 5,
+    "speed": 4,
+    "moveRange": 3,
+    "range": 6,
+    "growth": 14,
+    "cost": {
+      "gold": 70
+    },
+    "abilities": [
+      "ranged"
+    ],
+    "aiValue": 100
+  },
+  {
+    "id": "wei_wuwei",
+    "name": "武卫营",
+    "faction": "wei",
+    "tier": 2,
+    "attack": 5,
+    "defense": 4,
+    "damageMin": 3,
+    "damageMax": 5,
+    "hp": 11,
+    "speed": 4,
+    "moveRange": 4,
+    "range": 1,
+    "growth": 14,
+    "cost": {
+      "gold": 130,
+      "ore": 1
+    },
+    "abilities": [],
+    "aiValue": 215
+  },
+  {
+    "id": "wei_pili",
+    "name": "霹雳车",
+    "faction": "wei",
+    "tier": 2,
+    "attack": 5,
+    "defense": 3,
+    "damageMin": 4,
+    "damageMax": 7,
+    "hp": 9,
+    "speed": 4,
+    "moveRange": 3,
+    "range": 8,
+    "growth": 10,
+    "cost": {
+      "gold": 230,
+      "wood": 2
+    },
+    "abilities": [
+      "ranged"
+    ],
+    "aiValue": 245
+  },
+  {
+    "id": "wei_hubao",
+    "name": "虎豹骑",
+    "faction": "wei",
+    "tier": 3,
+    "attack": 8,
+    "defense": 6,
+    "damageMin": 6,
+    "damageMax": 9,
+    "hp": 20,
+    "speed": 7,
+    "moveRange": 6,
+    "range": 1,
+    "growth": 8,
+    "cost": {
+      "gold": 480,
+      "ore": 3
+    },
+    "abilities": [],
+    "aiValue": 530
+  },
+  {
+    "id": "wei_moushi",
+    "name": "谋士",
+    "faction": "wei",
+    "tier": 3,
+    "attack": 7,
+    "defense": 4,
+    "damageMin": 7,
+    "damageMax": 11,
+    "hp": 16,
+    "speed": 5,
+    "moveRange": 4,
+    "range": 7,
+    "growth": 8,
+    "cost": {
+      "gold": 430,
+      "mercury": 1
+    },
+    "abilities": [
+      "ranged"
+    ],
+    "aiValue": 480
+  },
+  {
+    "id": "wei_huwei",
+    "name": "虎卫统领",
+    "faction": "wei",
+    "tier": 4,
+    "attack": 12,
+    "defense": 10,
+    "damageMin": 10,
+    "damageMax": 14,
+    "hp": 50,
+    "speed": 8,
+    "moveRange": 5,
+    "range": 1,
+    "growth": 4,
+    "cost": {
+      "gold": 1600,
+      "gem": 1
+    },
+    "abilities": [
+      "twoAttack"
+    ],
+    "aiValue": 1400
+  },
+  {
+    "id": "wei_xiliang",
+    "name": "西凉铁骑",
+    "faction": "wei",
+    "tier": 4,
+    "attack": 11,
+    "defense": 8,
+    "damageMin": 8,
+    "damageMax": 12,
+    "hp": 42,
+    "speed": 9,
+    "moveRange": 6,
+    "range": 1,
+    "growth": 4,
+    "cost": {
+      "gold": 1500,
+      "ore": 5
+    },
+    "abilities": [],
+    "aiValue": 1300
+  }
+]
